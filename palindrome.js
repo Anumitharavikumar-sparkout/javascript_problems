@@ -8,7 +8,7 @@ let palandrome = () =>
     {
         if(startval !== endval)
         {
-        console.log('it is not palandrome');
+        return false;
         }
         startval++;
         endval--;
